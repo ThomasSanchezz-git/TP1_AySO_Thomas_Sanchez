@@ -1,1 +1,2 @@
 Usuario=vagrant
+model name	: AMD A9-9410 RADEON R5, 5 COMPUTE CORES 2C+3G
