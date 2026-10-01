@@ -1,0 +1,108 @@
+exit
+echo $HOME
+man
+apropos
+pwd
+whoami
+ls
+cd
+cd $home
+pwd
+cd -
+pwd
+cd ..
+pwd
+cat
+cat -help
+cat-help
+pwd
+cat -help
+cat --help
+cat --show-all
+cat filename.txt
+cat *.txt
+vagrant hash
+vagrant halt
+exit
+ssh-keygen -t ed25519
+ cat $HOME/.ssh/*.pub
+ cat $HOME
+ ssh-keygen -t ed25519
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+pwd
+git clone git@github.com:ThomasSanchezz-git/TP1_AySO_Apellido_Nombre.git
+cd TP1_AySO_Apellido_Nombre/
+PWD
+pwd
+cd ~/repogit/TP1_AySO_Apellido_Nombre/
+git remote set-url origin git@github.com:ThomasSanchezz-git/TP1_AySO_Thomas_Sanchez.git
+git remote -v
+cd -/repogit
+cd repogit
+cd ~/repogit
+mv TP1_AySO_Apellido_Nombre TP1_AySO_TuApellido_TuNombre
+mv TP1_AySO_TuApellido_TuNombre TP1_AySO_Thomas_Sanchez
+git sattus
+git status
+cd TP1_AySO_Thomas_Sanchez/
+git status
+git pull
+pwd
+ls -l
+cat /etc/os-release
+man grep
+-i
+grep -i
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+ls
+cat datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add
+git add .
+git config --global user.email "sanchezpmthomas@gmail.com"
+git config --global user.name "ThomasSanchezz-git"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Mario Thomas Sanchez Pedrozo
+División: 212
+Turno: Tarde 
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+nano README.md
+git add README.md
+git commit -m "fix: Corrigiendo el formato del README"
+git push
+mkdir -p $HOME/materia{1,2}/uni{1,2,3}
+ls -R $HOME/materia1
+ls -R $HOME/materia1 $HOME/materia2
+pwd
+nano script_dir.sh
+chmod +x script_dir.sh
+ls -l script_dir.sh
+./script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
